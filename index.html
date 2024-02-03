@@ -7,20 +7,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     </head>
     <body>
-        <div class="topnav">
+        
+          
+        <div class="topnav" id="navbar">
             <a class="active" href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#work">Work</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact Me</a>
-        </div>    
-        <h1>Hello. I'm Sarvesh Pandit</h1>
-        <h1>Hacky Hacks in Progress...</h1>
-        <h3>Passionate DevSecOps enthusiast, dedicated to fortifying digital landscapes <br> through code and security synergy.</h3>    
-    
+            
+        </div>
+        
+        
+        <main> 
+        <section id="home">    
+            <h1>Hello. I'm Sarvesh Pandit</h1>
+            <h1>Hacky Hacks in Progress...</h1>
+            <h3>Passionate DevSecOps enthusiast, dedicated to fortifying digital landscapes <br> through code and security synergy.</h3>    
+            
+        </section>  
+        
+        <a class="resume" onclick="resumeDownload()">Resume Download</a>
+            
 
         <section id="about">
             <h2 class="about-heading">About</h2>
@@ -36,19 +49,84 @@
 
         <section id="skills">
             <h2 class="skills-heading">Skills</h2>
-            <div class="skill-box">HTML</div>
-            <div class="skill-box">CSS</div>
-            <div class="skill-box">Python</div>
-            <div class="skill-box">Docker</div>
-            <div class="skill-box">AWS</div>
+            <div class="skill-container">
+                <div class="skill-box">AWS</div>
+                <div class="skill-box">Kubernetes</div>
+                <div class="skill-box">Docker</div>
+                <div class="skill-box">CI/CD</div>
+                <div class="skill-box">Grafana</div>
+                <div class="skill-box">Git</div>
+                <div class="skill-box">Bitbucket</div>
+                <div class="skill-box">Splunk SOAR</div>
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">JavaScript</div>
+                <div class="skill-box">Python</div>
+                <div class="skill-box">Bash</div>
+                <div class="skill-box">XML</div>
+                <div class="skill-box">SQL</div>
+                <div class="skill-box">Postman</div>
+                <div class="skill-box">Jira</div>
+                <div class="skill-box">Burpsuite</div>
+                <div class="skill-box">Metasploit</div>
+                <div class="skill-box">OWASP Top 10</div>
+                <div class="skill-box">Nessus</div>
+                <div class="skill-box">Terraform</div>
+                <div class="skill-box">Jenkins</div>
+                <div class="skill-box">Bamboo</div>
+                <div class="skill-box">Networking</div>
+                <div class="skill-box">Automation Testing</div>
+                <div class="skill-box">Firebase</div>
+            </div>
 
         </section>
 
         <section id="work">
-            <h2 class="work-heading">Work</h2>
-            
-
-
+            <h2 class="work-heading">Experience</h2>
+            <p class="period">March 2023 - Present</p>
+            <p class="company-role">NextGen.net - Change Control Engineer</p>
+            <p class="details">
+                    At NextGen we provide solutions from loan application called ApplyOnline through processing and settlement to lenders, brokers and aggregators. I have worked with version control, build and release management, and deployments of the solution to DEV, UAT, and PROD environments, leveraging DevOps processes and tools like Bamboo for more than 65 customers.
+                    I have integrated 40+ customers from DFS hosts to Kubernetes and managed their source code repositories like GitHub and Bitbucket.
+                    Additionaly, I have developed build and deploy scripts using Python and Bash to speed up deployment process by 25%.
+            </p>
+            <p class="period">Nov 2022 - Dec 2022</p>
+            <p class="company-role">Culture Infusion - Business Consultant</p>
+            <p class="details">
+                As a Business Consultant at Culture Infusion, I spearheaded market research efforts to assess the attractiveness of the market for the company's products and services. 
+                I led the preparation of comprehensive reports on new technologies, startups, innovations, and the potential scope of our client company in the recommended market. 
+                Additionally, I collaborated closely with stakeholders and clients, modeling and documenting goals while ensuring transparent communication, resulting in a 98% adherence to deadlines.
+            </p>
+            <p class="period">Feb 2021 - Dec 2021</p>
+            <p class="company-role">HEAPS.ai - IT Security Analyst</p>
+            <p class="details">
+                At HEAPS.ai, I conducted Vulnerability Assessment and Penetration Testing (VAPT) with Nessus and the Metasploit framework, achieving a remarkable 74% reduction in risk exposure. 
+                I also implemented a secure VPN system for the organization using OpenVPN and PiHole. Additionally, I played a key role in creating and enhancing numerous test scripts and cases to adapt to changes in objects, application GUI, and the testing environment using Selenium and Katalon Studio. 
+                Furthermore, my API testing efforts with Postman resulted in a noteworthy 10% improvement in system performance.
+            </p>
+            <p class="period">Sep 2020 - Nov 2020</p>
+            <p class="company-role">Bluefire Redteam LLP - VAPT Intern</p>
+            <p class="details">
+                At Bluefire Redteam LLP, I had the opportunity to work on numerous cybersecurity projects, gaining exposure to a diverse range of elements in the field. 
+                I conducted Vulnerability Assessment and Penetration Testing (VAPT) on various websites and applications, utilizing tools such as Nessus, NMAP, Burp Suite, and Wireshark. 
+                Additionally, I delivered a presentation on JavaScript Reconnaissance.
+            </p>
         </section>
+        <section id="projects">
+            <h2 class="projects-heading">Projects</h2>
+        </section>
+
+
+
+
+
+
+        </main>
+
+        <footer class="ending">
+            <p>Hand-coded with 100% human efforts, zero AI.</p>
+        </footer>
+
+
     </body>
 </html>
