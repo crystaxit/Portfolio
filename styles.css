@@ -1,7 +1,7 @@
 
 /* This is code for Body */
 body {
-    background-image: url("../Portfolio/images/darkbg.jpg"); /* Don't forget to change path to ../images/bg1.png */
+    background-image: url("../images/darkbg.jpg"); /* Don't forget to change path to ../images/bg1.png */
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
