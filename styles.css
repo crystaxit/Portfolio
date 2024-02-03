@@ -2,7 +2,7 @@
 /* This is code for Body */
 body {
     background-image: url("../images/bg1.png");
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
     background-color: #000f1a;
