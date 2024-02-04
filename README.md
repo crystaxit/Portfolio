@@ -2,7 +2,7 @@
 
 ![Project Screenshot](./images/ss.png)
 
-This is my Personal Portfolio crystaxit.github.io which features my personal projects as well as my Resume
+This is my Personal Portfolio [crystaxit.github.io](https://crystaxit.github.io/) which features my personal projects as well as my Resume
 
 ## Built using
 
