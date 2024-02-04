@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Project Logo](./images/logo.png)
+![Project Screenshot](./images/ss.png)
 
 This is my Personal Portfolio crystaxit.github.io which features my personal projects as well as my Resume
 
