@@ -2,9 +2,10 @@
 
 ![Project Logo](./images/logo.png)
 
-[This is my Personal Portfolio crystaxit.github.io which features my personal projects as well as my Resume]
+This is my Personal Portfolio crystaxit.github.io which features my personal projects as well as my Resume
 
-##Build using
+## Built using
+
 - HTML
 - CSS
 - JavaScript
@@ -12,11 +13,11 @@
 
 ## Pre-requisite
 
-[This program has no pre-requisites] 
+This program has no pre-requisites
 
 ## Installation
 
-[You can fork this repo to modify and make changes of your own. Please give me proper credit. Thanks! 😊]
+You can fork this repo to modify and make changes of your own. Please give me proper credit. Thanks! 😊
 
 1. Clone this repo
 ```bash
